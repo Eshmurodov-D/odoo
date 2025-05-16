@@ -684,12 +684,12 @@
                                 <field name="display_type"/>
                                 <field name="currency_id"/>
                                 <control>
-                                    <create name="add_product_control" string="Add product"/>
-                                    <create name="add_section_control" string="Add section" context="{'default_display_type': 'line_section'}"/>
-                                    <create name="add_note_control" string="Add note" context="{'default_display_type': 'line_note'}"/>
+                                    <create name="add_product_control" string="Add productn"/>
+                                    <create name="add_section_control" string="Add sectionn" context="{'default_display_type': 'line_section'}"/>
+                                    <create name="add_note_control" string="Add notee" context="{'default_display_type': 'line_note'}"/>
                                     <button name="action_add_from_catalog"
                                             context="{'order_id': parent.id}"
-                                            string="Catalog"
+                                            string="Catalogg"
                                             type="object"
                                             class="btn-secondary"/>
                                 </control>

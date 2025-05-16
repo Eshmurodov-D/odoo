@@ -5,7 +5,7 @@
         <field name="name">sale.order.line.list</field>
         <field name="model">sale.order.line</field>
         <field name="arch" type="xml">
-            <list string="Sales Order Lines" create="false">
+            <list string="Sales Order Liness" create="false">
                 <field name="order_id"/>
                 <field name="order_partner_id"/>
                 <field name="name"/>
@@ -136,3 +136,5 @@
     </record>
 
 </odoo>
+
+
